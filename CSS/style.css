@@ -68,8 +68,14 @@ body {
 }
 
 .section-div img {
+  transition: all 1s ease-out;
   width: 50%;
   border-radius: 5px;
+}
+
+.section-div img:hover {
+  transition: all 1s ease-out;
+  content: url("../img/hero.png");
 }
 
 .section-text-1 {
