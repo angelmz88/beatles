@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #61a8a5;
+  position: fixed;
+}
+
+.nav {
+  width: 80%;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-ul-item {
+  list-style: none;
+}
+
+.nav-ul-item a {
+  text-decoration: none;
+  color: #28353d;
+}
+
+/* Hero */
+
+.hero {
+  width: 100%;
+  height: 90vh;
+  background-color: #d7dcc3;
+  padding-top: 10vh;
+  /* display: flex;
+  align-items: start; */
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+/* Sections */
+
+.section {
+  width: 100%;
+  height: 60vh;
+}
+
+.section-div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-div img {
+  width: 50%;
+  border-radius: 5px;
+}
+
+.section-text-1 {
+  flex-direction: column;
+  align-items: start;
+}
+
+.section-div h2 {
+  color: #111827;
+  font-size: 2em;
+}
+
+.section-text-1 p {
+  width: 60%;
+  color: #d7dcc3;
+}
+
+.section-1 {
+  background-color: #39725c;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.section-2 {
+  background-color: #d7dcc3;
+  display: flex;
+}
+
+.section-text-2 {
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-text-2 h2 {
+  width: 60%;
+}
+
+.section-text-2 p {
+  width: 60%;
+  color: #28353d;
+}
+
+.section-2 .section-image {
+  display: flex;
+  justify-content: left;
+}
+
+.img-1 {
+  box-shadow: -15px -15px #ede9fe;
+}
+
+.img-2 {
+  box-shadow: 15px 15px #ede9fe;
+}
