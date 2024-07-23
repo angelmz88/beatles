@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -34,6 +38,12 @@ body {
 .nav-ul-item a {
   text-decoration: none;
   color: #28353d;
+  transition: all 0.5s ease-in;
+}
+
+.nav-ul-item a:hover {
+  color: #d7dcc3;
+  transition: all 0.5s ease-in;
 }
 
 /* Hero */
@@ -152,6 +162,107 @@ body {
   box-shadow: 15px 15px #88b6ae;
 }
 
-
 /* Canciones */
 
+.canciones {
+  width: 100%;
+  height: auto;
+  background-color: #d7dcc3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.song {
+  width: 80%;
+  min-height: 50vh;
+}
+
+.song-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.song-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.song-text p {
+  color: #28353d;
+}
+
+.canciones h2 {
+  color: #111827;
+  font-size: 2em;
+  padding: 35px;
+}
+
+.song-text h3 {
+  width: 100%;
+  text-align: left;
+  color: #111827;
+  font-size: 1.5em;
+}
+
+.song-video {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.song-video iframe {
+  width: 90%;
+  height: 100%;
+}
+
+.song-1 .song-content {
+  flex-direction: row-reverse;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #39725c;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-div {
+  width: 30%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-div a {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: all 0.5s linear;
+}
+
+.footer-div a:hover {
+  color: #111827;
+  transition: all 0.5s linear;
+}
+
+.footer-div img {
+  width: 20%;
+  margin-left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
